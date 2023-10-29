@@ -1,0 +1,16 @@
+{
+    "name": "helde/pizzaria",
+    "description": "Sistema de controle de entrega de pizzas",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pizzaria\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helder"
+        }
+    ],
+    "require": {}
+}

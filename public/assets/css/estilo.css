@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor-principal: #ff4141;
+    --cor-principal-hover: #db2d2d;
+    --cor-clara: #fff;
+    --cor-escura: #252525;
+    --cor-cinza: #bebebe;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*----------LOGIN-----------------*/
+#login{
+    height: 100vh;
+    background-image: url('../img/pizza.jpg');
+    background-size: cover;
+}
+
+.titulo-login{
+    font-size: 25pt;
+    padding: 20px;
+    text-align: center;
+}
+
+.fundo{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+/*-----------FIM LOGIN----------------*/
+
+/*-------CONFIGURAÇÕES DE FORMULÁRIOS------------*/
+.campo{
+    margin-bottom: 15px;
+}
+
+.campo input{
+    width: 100%;
+    padding: 8px 15px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    font-size: 20pt;
+}
+
+.btn{
+    font-size: 20pt;
+    border: none;
+    background-color: var(--cor-principal);
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+a.btn{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: var(--cor-principal-hover);
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+/*-------FIM CONFIGURAÇÕES DE FORMULÁRIOS------------*/
+
+/*---------CABECALHO---------------*/
+.cabecalho{
+    width: 100%;
+    padding: 0px 15px;
+    background-color: var(--cor-escura);
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-clara);
+    top: 0px;
+}
+
+.cabecalho .nome-sistema{
+    font-size: 18pt;
+}
+
+/*---------FIM CABECALHO-------------*/
+
+/*-----------CONTEUDO----------------*/
+.conteudo{
+    margin: 90px auto;
+    width: 900px;
+}
+/*-----------FIM CONTEUDO----------------*/
+
+/*------------MENU PRINCIPAL---------------*/
+.menu-principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0px;
+}
+.menu-principal .btn{
+    margin: 0px 4px;
+}
+/*------------FIM MENU PRINCIPAL---------------*/
+
+/*-----------TÍTULO PÁGINA-----------------*/
+.titulo-pagina{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19pt;
+    padding: 15px 0px;
+    background-color: var(--cor-cinza);
+
+}
+/*-----------FIM TÍTULO PÁGINA-------------*/
+
+/*-----------TABELA------------------------*/
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela, td, th{
+    border: 1px solid var(--cor-escura);
+}
+
+td, th{
+    padding: 8px 15px;
+}
+/*-----------FIM TABELA---------------------*/
+
+/*-----------FORMULARIO---------------------*/
+.campo-form{
+    padding-top: 15px;
+    width: 100%;
+}
+
+.campo-form input, .campo-form select{
+    width: 100%;
+    font-size: 15pt;
+    padding: 5px 15px;
+}
+/*-----------FIM FORMULÁRIO-----------------*/
